@@ -10,7 +10,8 @@
                 "${file}",
                 "-o",
                 "${workspaceFolder}/build/${fileBasenameNoExtension}",
-                "-fopenmp"
+                "-fopenmp",
+                "-Wall"
             ],
             "group": {
                 "kind": "build",
